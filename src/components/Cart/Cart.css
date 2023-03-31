@@ -1,3 +1,12 @@
 .publishing-date{
     color: rgba(17, 17, 17, 0.6);
 }
+.mark-as-read{
+    color: #6047EC;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid #6047EC;
+}
+.cover-image{
+    height: 450px;
+}

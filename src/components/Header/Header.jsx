@@ -5,7 +5,7 @@ import profile from '../../assets/profile.jpg'
 
 const Header = () => {
     return (
-        <nav className='flex justify-between container mx-auto py-3 sticky top-0'>
+        <nav className='flex justify-between py-3 mb-20'>
             <div>
                 <h1 className='text-4xl font-bold pl-5'>Knowledge Cafe</h1>
             </div>

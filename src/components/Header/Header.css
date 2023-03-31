@@ -1,0 +1,8 @@
+nav a{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 25px;
+}
+nav{
+    border-bottom: 1px solid rgba(17, 17, 17, 0.15);
+}

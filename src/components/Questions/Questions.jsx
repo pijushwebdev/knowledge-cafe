@@ -1,8 +1,9 @@
 import React from 'react';
-import './Questions.css'
+import './Questions.css';
+
 const Questions = () => {
     return (
-        <div>
+        <div className='questions'>
             <h1>Question 1: Props vs state</h1>
             <p>Props are inputs to a React component that are passed from its parent component.
             They are used to customize the behavior and appearance of a component based on the values passed in from the parent. 

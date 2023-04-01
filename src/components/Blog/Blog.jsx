@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Blog = () => {
   const [carts, setCarts] = useState([]);
-  const [readTime, setReadTime] = useState('0');
+  const [readTime, setReadTime] = useState(0);
   const [bookmark, setBookMark] = useState([]);
   const [countBM, setCountBM] = useState([]);
 
@@ -22,7 +22,8 @@ const Blog = () => {
     if (prevReadTime) {
       const sumTime = parseInt(prevReadTime) + parseInt(time);
       localStorage.setItem('readTime', sumTime);
-      setReadTime(sumTime)
+      setReadTime(sumTime);
+
     } else {
       localStorage.setItem('readTime', time);
       setReadTime(time);

@@ -5,15 +5,14 @@ import ShowTitle from '../ShowTitle/ShowTitle';
 
 const Bookmark = ({readTime,bookmark}) => {
     const [time, setTime] = useState(readTime);
-    console.log(bookmark);
 
     useEffect( () => {
         const getReadTime = localStorage.getItem('readTime');
         setTime(getReadTime);
-
-    }, [readTime])
+    }, [readTime]);
+    
     return (
-        <div>
+        <div className='sticky top-0'>
             <div className='spent-time p-2 rounded-md border'>
                 <h2 className='text-xl font-bold'>Spent time on read: {time} min</h2>
             </div>

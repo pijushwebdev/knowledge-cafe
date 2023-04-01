@@ -10,7 +10,6 @@ const Cart = (props) => {
     const month = monthNames[date.getMonth()];
     const day = publish_date.slice(8, 10);
 
-
     return (
         <div className='pr-5 pb-5 mb-8 shadow'>
             <img className='cover-image w-full mb-5 rounded-md' src={images.blog_cover_image} alt="" />
